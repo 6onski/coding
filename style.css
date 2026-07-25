@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'angelic_peaceregular';
+  src: url('fonts/angelic_peace-webfont.woff2') format('woff2'), 
+       url('fonts/angelic_peace-webfont.woff') format('woff');
+}
+body { 
+            font-family: 'angelic_peaceregular', sans-serif; 
+}
+.main {
+    text-align: center;
+        font-size: 90px;
+}
