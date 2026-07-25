@@ -10,3 +10,6 @@ body {
     text-align: center;
         font-size: 90px;
 }
+p.main {
+  font-family: sans-serif;
+}
