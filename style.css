@@ -8,14 +8,14 @@ body {
 }
 .main {
     text-align: center;
-        font-size: 10px;
+    font-size: 0.9rem;
 }
 .main h1 { 
     font-family: 'angelic_peaceregular', sans-serif; 
-    font-size: 20px; 
+    font-size: 1.2m;
 } 
 .subtext {
-  font-size: 0.85rem;
+  font-size: 0.70rem;
   color: #666666;
   line-height: 1.4;
   margin-top: 0.25rem;
