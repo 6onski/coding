@@ -5,11 +5,10 @@
 }
 body { 
     font-family: 'angelic_peaceregular', sans-serif; 
-    height: calc(100% + 190px);
 }
 .main {
     text-align: center;
-        font-size: 90px;
+        font-size: 70px;
 }
 h1.main {
       background: linear-gradient(to right, rgb(255, 255, 255), rgb(19, 19, 19));
