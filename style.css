@@ -4,17 +4,15 @@
        url('fonts/angelic_peace-webfont.woff') format('woff');
 }
 body { 
-    font-family: 'angelic_peaceregular', sans-serif; 
+    font-family: sans-serif; 
 }
 .main {
     text-align: center;
-        font-size: 40px;
+        font-size: 10rem;
 }
 h1.main {
-      background: linear-gradient(to right, rgb(255, 255, 255), rgb(19, 19, 19));
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
+  font-family: 'angelic_peaceregular', sans-serif;
+  font-size: 40px;
 }
 .sticky {
   position: -webkit-sticky;
