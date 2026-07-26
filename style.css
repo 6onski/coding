@@ -5,7 +5,7 @@
 }
 body { 
     font-family: 'angelic_peaceregular', sans-serif; 
-    height: 100% + 190px;
+    height: calc(100% + 190px);
 }
 .main {
     text-align: center;
