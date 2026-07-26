@@ -8,7 +8,7 @@ body {
 }
 .main {
     text-align: center;
-        font-size: 70px;
+        font-size: 40px;
 }
 h1.main {
       background: linear-gradient(to right, rgb(255, 255, 255), rgb(19, 19, 19));
@@ -22,4 +22,11 @@ h1.main {
   top: 20px;
   width: 100%;             
   height: auto;             
+}
+.subtext {
+  font-size: 0.85rem;
+  color: #666666;
+  line-height: 1.4;
+  margin-top: 0.25rem;
+  display: block;
 }
