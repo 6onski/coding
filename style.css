@@ -8,11 +8,11 @@ body {
 }
 .main {
     text-align: center;
-        font-size: 20px;
+        font-size: 10px;
 }
 h1.main {
-  font-family: 'angelic_peaceregular', arial, sans-serif;
-  font-size: 40px;
+  font-family: 'angelic_peaceregular';
+  font-size: 20px;
 }
 .subtext {
   font-size: 0.85rem;
