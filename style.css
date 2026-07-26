@@ -4,7 +4,7 @@
        url('fonts/angelic_peace-webfont.woff') format('woff');
 }
 body { 
-    zoom; 200%;
+    zoom: 200%;
     font-family: Arial,sans-serif; 
 }
 .main {
