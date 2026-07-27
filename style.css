@@ -20,8 +20,8 @@ body {
   display: block;
 }
 .content {
-    padding: 1rem;
-    width:10%;
+    padding: 20px;
+    width: 100%;
 }
 .note {
     width: 300px;
@@ -29,8 +29,4 @@ body {
     background-color: #FFF4A3;
     padding: 1rem;
     font-family: arial;
-}
-
-.content img {
-size: 40px;
 }
