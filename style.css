@@ -11,6 +11,7 @@ body {
 }
 .main h1 { 
     font-family: 'angelic_peaceregular', sans-serif;
+    font-size: 2.5rem;
 } 
 .subtext {
   font-size: 0.70rem;
@@ -21,7 +22,9 @@ body {
 }
 .content {
     padding: 20px;
-    width: 100%;
+    width: 40%;
+    margin: auto;
+    bordrer: 1px solid #ccc;
 }
 .note {
     width: 300px;
@@ -30,3 +33,6 @@ body {
     padding: 1rem;
     font-family: arial;
 }
+ hr {
+    height: 20%;
+ }
