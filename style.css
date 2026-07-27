@@ -30,3 +30,8 @@ body {
     padding: 1rem;
     font-family: arial;
 }
+
+.content img {
+    width: 60%;
+    height: auto;
+}
