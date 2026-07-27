@@ -25,3 +25,10 @@ body {
     padding: 1rem;
     width:10%;
 }
+.note {
+  width: 300px;
+  margin: auto;
+  background-color: #FFF4A3;
+  padding: 1rem;
+  font-family: arial;
+}
