@@ -27,10 +27,9 @@ body {
     border: 1px solid #edecec;
 }
 .note {
-    width: 40%;
-    margin: auto;
+    width: 100%;
     background-color: #FFF4A3;
-    padding: 1rem;
+    padding: 0.3rem;
     font-family: arial;
 }
  hr {
