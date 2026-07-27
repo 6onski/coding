@@ -22,12 +22,12 @@ body {
 }
 .content {
     padding: 20px;
-    width: 40%;
+    width: 80%;
     margin: auto;
-    border: 1px solid #ccc;
+    border: 1px solid #edecec;
 }
 .note {
-    width: 30px;
+    width: 40%;
     margin: auto;
     background-color: #FFF4A3;
     padding: 1rem;
@@ -36,3 +36,10 @@ body {
  hr {
     width: 20%;
  }
+.footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #666666;
+    margin-top: 1rem;
+    width: 100%;
+}
