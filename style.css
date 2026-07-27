@@ -8,11 +8,10 @@ body {
 }
 .main {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 2rem;
 }
 .main h1 { 
-    font-family: 'angelic_peaceregular', sans-serif; 
-    font-size: 1.2m;
+    font-family: 'angelic_peaceregular', sans-serif;
 } 
 .subtext {
   font-size: 0.70rem;
