@@ -26,6 +26,11 @@ body {
     margin: auto;
     border: 1px solid #edecec;
 }
+.content img {
+    width: 90px;
+    height: 90px;
+    image-rendering: pixelated;
+}
 .note {
     width: 80%;
     background-color: #FFF4A3;
