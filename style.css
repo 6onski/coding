@@ -3,9 +3,6 @@
   src: url('fonts/angelic_peace-webfont.woff2') format('woff2'), 
        url('fonts/angelic_peace-webfont.woff') format('woff');
 }
-html {
-    font-size: 200%; 
-}
 body { 
     font-family: Arial,sans-serif; 
 }
@@ -18,7 +15,7 @@ body {
 } 
 .subtext {
   font-size: 0.70rem;
-  color: #000000;
+  color: #666666;
   line-height: 1.4;
   margin-top: 0.25rem;
   display: block;
@@ -28,7 +25,6 @@ body {
     width: 80%;
     margin: auto;
     border: 1px solid #edecec;
-    overflow: auto;
 }
 .content img {
     width: 20%;
@@ -37,21 +33,21 @@ body {
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
-    max-width: 40%; 
+     max-width: 40%; /* Keeps image proportional to text layout */
 }
 .note {
     width: 80%;
     background-color: #FFF4A3;
+    padding: 0.3rem;
     font-family: arial;
     margin: auto;
-    padding: 0.3rem;
+    padding: 0;
     text-align: center;
 }
  hr {
     width: 20%;
  }
 .footer {
-    clear: both; 
     text-align: center;
     font-size: 0.75rem;
     color: #666666;
