@@ -28,6 +28,7 @@ body {
     width: 80%;
     margin: auto;
     border: 1px solid #edecec;
+    overflow: auto;
 }
 .content img {
     width: 20%;
@@ -36,7 +37,7 @@ body {
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
-     max-width: 40%; 
+    max-width: 40%; 
 }
 .note {
     width: 80%;
@@ -50,6 +51,7 @@ body {
     width: 20%;
  }
 .footer {
+    clear: both; 
     text-align: center;
     font-size: 0.75rem;
     color: #666666;
