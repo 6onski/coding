@@ -26,14 +26,13 @@ body {
     display: block;
 }
 
-.main,
-.content {
+.main, .content {
     padding: 20px;
     width: 80%;
     margin: 1rem auto;
     border: 1px solid #ccc;
     overflow: auto;
-
+}
 .content img {
     display: block;
     max-width: 150px;
