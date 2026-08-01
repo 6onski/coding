@@ -28,20 +28,19 @@ body {
 
 .main,
 .content {
-    border: 1px solid #ccc;
     padding: 20px;
     width: 80%;
     margin: 1rem auto;
-}
+    border: 1px solid #ccc;
+    overflow: auto;
 
 .content img {
-    width: 20%;
+    display: block;
+    max-width: 150px;
     height: auto;
+    margin: 1rem auto 0;
     image-rendering: pixelated;
-    float: left;
-    margin: 0 20px 10px 0;
 }
-
 .note {
     width: 80%;
     background-color: #FFF4A3;
