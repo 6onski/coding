@@ -1,60 +1,66 @@
 @font-face {
   font-family: 'angelic_peaceregular';
-  src: url('fonts/angelic_peace-webfont.woff2') format('woff2'), 
+  src: url('fonts/angelic_peace-webfont.woff2') format('woff2'),
        url('fonts/angelic_peace-webfont.woff') format('woff');
 }
-body { 
-    font-family: Arial,sans-serif; 
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
+
 .header {
     text-align: center;
 }
-.header h1 { 
+
+.header h1 {
     font-family: 'angelic_peaceregular', sans-serif;
     font-size: 2.5rem;
-} 
-.subtext {
-  font-size: 0.70rem;
-  color: #666666;
-  line-height: 1.4;
-  margin-top: 0.25rem;
-  display: block;
 }
+
+.subtext {
+    font-size: 0.9rem;
+    color: #666666;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+.main,
 .content {
+    border: 1px solid #ccc;
     padding: 20px;
     width: 80%;
-    margin: auto;
-    border: 1px solid #edecec;
+    margin: 1rem auto;
 }
+
 .content img {
     width: 20%;
     height: auto;
     image-rendering: pixelated;
     float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-     max-width: 40%; /* Keeps image proportional to text layout */
+    margin: 0 20px 10px 0;
 }
+
 .note {
     width: 80%;
     background-color: #FFF4A3;
-    padding: 0.3rem;
-    font-family: arial;
-    margin: auto;
-    padding: 0;
+    margin: 1rem auto;
+    padding: 0.5rem;
     text-align: center;
+    border: 1px solid #ccc;
 }
- hr {
+
+hr {
     width: 20%;
- }
+    border: 1px solid #ccc;
+    margin: 1rem auto;
+}
+
 .footer {
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     color: #666666;
     margin-top: 1rem;
     width: 100%;
-}
-.main {
-    border: 1px solid #edecec;
-    padding: 5px;
 }
