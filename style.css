@@ -52,8 +52,8 @@ body {
     border: 1px solid #e1e0e0;
     overflow: auto;
 }
-.content h2 {
-    font-size: 1.5rem;
+.content h1 {
+    font-size: 2rem;
     margin-top: 1rem;
     font-family: 'Rascal';
 }
@@ -66,9 +66,10 @@ body {
 }
 .note {
     width: 80%;
+    height: auto;
     background-color: #FFF4A3;
     margin: 0.9rem auto;
-    padding: 5px;
+    padding: 3px;
     text-align: center;
     border: 1px solid #ccc;
 }
