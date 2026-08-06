@@ -44,6 +44,9 @@ body {
     margin: 0.3rem auto;
     border: 1px solid #ccc;
     overflow: auto;
+    overflow-wrap: break-word; 
+    word-break: break-word; /* for STUPID older browsers that don't support overflow-wrap, ughh!!!! */
+    /* woah is that like, my only message in the entire css file? I guess so. */
 }
 .main {
     padding: 5px;
