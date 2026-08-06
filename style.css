@@ -19,9 +19,10 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-  gap: 1rem;
-  margin-left: auto;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 90%; 
+  width: 100%;
 }
 
 
