@@ -55,9 +55,10 @@ body {
 .content h1 {
     font-size: 2rem;
     margin-top: 1rem;
-    font-family: 'Rascal';
+    font-family: 'North';
 }
 .content img {
+    border: 1px solid #ccc;
     float: right;
     margin: 0 0 1rem 1rem; 
     max-width: 150px;
