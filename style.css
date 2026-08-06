@@ -38,11 +38,18 @@ body {
     display: block;
 }
 
-.main, .content {
+.content {
     padding: 20px;
+    width: 90%;
+    margin: 0.3rem auto;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+.main {
+    padding: 5px;
     width: 80%;
     margin: 0.5rem auto;
-    border: 1px solid #ccc;
+    border: 1px solid #e1e0e0;
     overflow: auto;
 }
 .content h2 {
