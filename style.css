@@ -21,7 +21,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   gap: 1rem;
-  margin-left: 1rem;
+  margin-left: auto;
 }
 
 
