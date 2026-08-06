@@ -4,6 +4,11 @@
        url('fonts/angelic_peace-webfont.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Rascal';
+  src: url('fonts/RASCAL.woff2') format('woff2');
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: 1.1rem;
@@ -32,6 +37,11 @@ body {
     margin: 1rem auto;
     border: 1px solid #ccc;
     overflow: auto;
+}
+.content h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: 'Rascal', sans-serif;
 }
 .content img {
     display: block;
