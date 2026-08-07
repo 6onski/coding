@@ -39,14 +39,12 @@ body {
 }
 
 .content {
-    padding: 20px;
-    width: 90%;
-    margin: 0.3rem auto;
-    border: 1px solid #ccc;
-    overflow: auto;
-    overflow-wrap: break-word; 
-    word-break: break-word; /* for STUPID older browsers that don't support overflow-wrap, ughh!!!! */
-    /* woah is that like, my only message in the entire css file? I guess so. */
+  padding: 20px; 
+  width: 90%; 
+  margin: 0.3rem auto; 
+  border: 1px solid #ccc; 
+  overflow-wrap: break-word; 
+  word-break: break-word; 
 }
 .main {
     padding: 5px;
@@ -61,12 +59,13 @@ body {
     font-family: 'North';
 }
 .content img {
-    border: 1px solid #ccc;
-    float: right;
-    margin: 0 0 1rem 1rem; 
-    max-width: 150px;
-    height: auto;
-    image-rendering: pixelated;
+  border: 1px solid #ccc; 
+  float: right; 
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  max-width: 150px; 
+  height: auto; 
+  image-rendering: pixelated; 
 }
 .note {
     width: 80%;
