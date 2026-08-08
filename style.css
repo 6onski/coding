@@ -1,15 +1,11 @@
 @font-face {
-  font-family: 'angelic_peaceregular';
-  src: url('fonts/angelic_peace-webfont.woff2') format('woff2'),
-       url('fonts/angelic_peace-webfont.woff') format('woff');
-}
-
-@font-face {
   font-family: 'North';
   src: url('fonts/North.woff2') format('woff2');
 }
 
 body {
+    color: #ffffff;
+    background-color: #0b0b0b;
     font-family: Arial, sans-serif;
     font-size: 1.1rem;
     line-height: 1.5;
@@ -27,7 +23,7 @@ body {
 
 
 .header h1 {
-    font-family: 'angelic_peaceregular', sans-serif;
+    font-family: 'North', sans-serif;
     font-size: 2.5rem;
 }
 
@@ -42,15 +38,16 @@ body {
   padding: 20px; 
   width: 90%; 
   margin: 0.3rem auto; 
-  border: 1px solid #ccc; 
+  border: 1px solid #0b0b0b; 
   overflow-wrap: break-word; 
   word-break: break-word; 
+  font-size: 1.25rem; 
 }
 .main {
     padding: 5px;
     width: 80%;
     margin: 0.5rem auto;
-    border: 1px solid #e1e0e0;
+    border: 1px solid #0b0b0b;
     overflow: auto;
 }
 .content h1 {
@@ -59,7 +56,7 @@ body {
     font-family: 'North';
 }
 .content img {
-  border: 1px solid #ccc; 
+  border: 1px solid #0b0b0b; 
   float: right; 
   margin-left: 1.5rem;
   margin-bottom: 1rem;
@@ -71,15 +68,15 @@ body {
     width: 80%;
     height: auto;
     background-color: #FFF4A3;
-    margin: 0.9rem auto;
+    margin: 0.3rem auto;
     padding: 3px;
     text-align: center;
-    border: 1px solid #ccc;
+    border: 1px solid #0b0b0b;
 }
 
 hr {
     width: 20%;
-    border: 1px solid #ccc;
+    border: 1px solid #0b0b0b;
     margin: 1rem auto;
 }
 
