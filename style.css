@@ -82,7 +82,7 @@ hr {
 .content img {
   float: right;
   margin: 0 0 1rem 1.5rem;
-  max-width: 200px;
+  max-width: 300px;
   height: auto;
   image-rendering: pixelated;
 }
