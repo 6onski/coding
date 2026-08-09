@@ -11,7 +11,7 @@ body {
   line-height: 1.5;
 }
 
-.content, .main, .note, hr {
+.main, .note, hr {
   border: 1px solid #121212;
 }
 
