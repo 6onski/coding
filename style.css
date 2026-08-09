@@ -12,7 +12,7 @@ body {
 }
 
 .main, .note, hr {
-  border: 1px solid #121212;
+  border: 1px solid #fff;
 }
 
 .header {
@@ -80,7 +80,6 @@ hr {
 }
 
 .content img {
-  float: right;
   margin: 0 0 1rem 1.5rem;
   max-width: 300px;
   height: auto;
