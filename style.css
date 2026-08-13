@@ -24,7 +24,9 @@ body {
 }
 
 .content {
-  border-radius: 15px 15px 0 0;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 3px 3px 0px 0px;
+  border-radius: 3px 3px 0px 0px; 
   padding: 20px;
   width: 90%;
   margin: 0.3rem auto;
