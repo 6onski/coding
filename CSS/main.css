@@ -1,8 +1,6 @@
 @font-face {
     font-family: 'North';
     src: url('../fonts/North.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
