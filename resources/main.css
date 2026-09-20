@@ -15,7 +15,8 @@ body {
 .content {
     display: flex;
     gap: 5%;
-    justify-content: center
+    justify-content: center;
+    flex-wrap: wrap;
 }
 footer {
     text-align: center;
@@ -29,10 +30,11 @@ footer {
     border: 1px solid #aaa9a9;
 }
 .content h1 {
-    position: absolute;
+    flex: 0 0 100%;
 }
 
 .image-container img {
     width: 200px;
     height: 150px;
+    resize: cover;
 }
