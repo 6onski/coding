@@ -17,6 +17,7 @@ body {
     gap: 5%;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 footer {
     text-align: center;
@@ -35,7 +36,8 @@ footer {
 }
 
 .image-container img {
-    width: 200px;
-    height: 150px;
+    width: 100%;
+    height: auto;
     resize: cover;
+    border: 1px solid #aaa9a9;
 }
