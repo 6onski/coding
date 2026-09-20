@@ -8,6 +8,7 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 60%;
+    color: #000;
 }
 .box, .image-container {
     width: 30%;
