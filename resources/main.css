@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Segoe';
+    src: url('Segoe UI.woff2') format('woff2');
+}
+body {
+    font-family: 'Segoe', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+.box, .image-container {
+    width: 30%;
+    height: auto;
+}
+.content {
+    display: flex;
+    gap: 5%;
+    justify-content: center
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #aaa9a9;
+}
+.image-container h4 {
+    color: #aaa9a9;
+    margin-top: 1%;
+}
