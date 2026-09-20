@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'Segoe';
-    src: url('Segoe UI.woff2') format('woff2');
+    font-family: 'SFDT';
+    src: url('SFDT.woff2') format('woff2');
 }
 body {
-    font-family: 'Segoe', sans-serif;
+    font-family: 'SFDT', sans-serif;
     margin: 0 auto;
     padding: 0;
     width: 60%;
