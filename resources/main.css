@@ -29,8 +29,7 @@ footer {
 .image-container h4 {
     color: #aaa9a9;
     margin-top: 1%;
-    padding: 2%;
-    text-align: center;
+    padding: 1%;
 }
 .image-container {
     color: #aaa9a9;
@@ -47,5 +46,4 @@ footer {
 }
 .image-container p {
     position: absolute;
-    right: 5px;
 }
